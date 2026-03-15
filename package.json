@@ -1,7 +1,7 @@
 {
-  "name": "ellucian-banner-browser-automation",
+  "name": "@browser-automation-hub/ellucian-banner-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for Ellucian Banner — automate student registration, grade submission, financial aid processing, and SIS data extraction from Banner 9 / INB.",
+  "description": "Browser automation for Ellucian Banner — automate student registration, grade submission, and SIS data extraction",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -16,7 +16,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -35,5 +35,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/ellucian-banner-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/ellucian-banner-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
